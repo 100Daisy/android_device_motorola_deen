@@ -10,5 +10,9 @@
   {
     "repository": "android_system_qcom",
     "target_path": "system/qcom"
+  },
+  {
+    "repository": "vendor_motorola_deen",
+    "target_path": "system/qcom"
   }
 ]

@@ -141,6 +141,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libwui
 
+PRODUCT_PACKAGES += \
+    GoogleCamera \
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \

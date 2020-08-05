@@ -19,11 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Havoc stuff
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
@@ -32,7 +30,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := deen
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := aosp_deen
+PRODUCT_NAME := havoc_deen
 PRODUCT_MODEL := Motorola One
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

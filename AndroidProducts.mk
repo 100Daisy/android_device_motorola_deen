@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_deen.mk
+    $(LOCAL_DIR)/aosp_deen.mk \
     $(LOCAL_DIR)/ancient_deen.mk \
     $(LOCAL_DIR)/du_deen.mk \
     $(LOCAL_DIR)/ion_deen.mk

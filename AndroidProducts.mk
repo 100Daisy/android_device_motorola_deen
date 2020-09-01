@@ -16,9 +16,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_deen.mk \
     $(LOCAL_DIR)/ancient_deen.mk \
+    $(LOCAL_DIR)/cos_deen.mk \
     $(LOCAL_DIR)/du_deen.mk \
-    $(LOCAL_DIR)/ion_deen.mk
-
+    $(LOCAL_DIR)/ion_deen.mk \
+    $(LOCAL_DIR)/lineage_deen.mk
+    
 COMMON_LUNCH_CHOICES := \
     aosp_deen-user \
     aosp_deen-userdebug \
@@ -26,9 +28,15 @@ COMMON_LUNCH_CHOICES := \
     ancient_deen-user \
     ancient_deen-userdebug \
     ancient_deen-eng \
+    cos_deen-user \
+    cos_deen-userdebug \
+    cos_deen-eng \
     du_deen-user \
     du_deen-userdebug \
     du_deen-eng \
     ion_deen-user \
     ion_deen-userdebug \
-    ion_deen-eng
+    ion_deen-eng \
+    lineage_deen-user \
+    lineage_deen-userdebug \
+    lineage_deen-eng

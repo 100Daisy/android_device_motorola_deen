@@ -24,6 +24,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+PPUI_MAINTAINER := Zimek
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 

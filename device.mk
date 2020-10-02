@@ -141,14 +141,7 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libwui
 
-# GCAM
-PRODUCT_PACKAGES += \
-    GoogleCamera \
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/GoogleCamera/com.google.android.GoogleCamera.xml:system/etc/permissions/com.google.android.GoogleCamera.xml
-
-# GoogleCamera
+# OpenCamera
 PRODUCT_PACKAGES += \
     OpenCamera \
 

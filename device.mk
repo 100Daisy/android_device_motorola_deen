@@ -255,7 +255,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.target.rc \
     fstab.qcom \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.safailnet.rc
 
 # IPACM
 PRODUCT_PACKAGES += \

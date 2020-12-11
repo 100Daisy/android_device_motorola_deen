@@ -141,7 +141,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libwui
 
+# MotCamera2
 PRODUCT_PACKAGES += \
+    MotCamera2 \
 
 # Codec2 modules
 PRODUCT_PACKAGES += \

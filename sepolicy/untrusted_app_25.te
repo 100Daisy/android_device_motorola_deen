@@ -1,0 +1,2 @@
+allow untrusted_app_25 adbd_prop:file { getattr open };
+allow untrusted_app_25 adsprpc_prop:file { getattr open };

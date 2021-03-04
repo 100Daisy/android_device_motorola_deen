@@ -247,3 +247,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=320
+
+# ADB on boot
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.service.adb.enable=1 \
+persist.service.debuggable=1 \
+persist.sys.usb.config=mtp,adb

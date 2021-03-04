@@ -1,5 +1,0 @@
-allow rmt_storage block_device:blk_file { open read };
-allow rmt_storage fsg_firmware_file:file { open read };
-allow rmt_storage persist_rfs_file:dir { search };
-allow rmt_storage persist_rfs_file:file { open write };
-allow rmt_storage vendor_radio_prop:file { getattr open read };

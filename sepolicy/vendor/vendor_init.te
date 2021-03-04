@@ -20,3 +20,13 @@ set_prop(vendor_init, moto_boot_prop)
 set_prop(vendor_init, vendor_fm_prop)
 
 allow vendor_init system_fps_data_file:dir create_dir_perms;
+
+#allow vendor_init default_prop:file { getattr open read };
+allow vendor_init device:file { create write };
+#allow vendor_init ffs_prop:property_service { set };
+allow vendor_init freq_prop:property_service { set };
+allow vendor_init hwrev_prop:property_service { set };
+allow vendor_init persist_debug_prop:file { read };
+#allow vendor_init persistent_properties_ready_prop:file { read };
+allow vendor_init vendor_ssr_prop:property_service { set };
+#allow vendor_init wifi_prop:file { read };

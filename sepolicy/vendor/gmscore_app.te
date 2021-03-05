@@ -1,6 +1,0 @@
-allow gmscore_app adbd_prop:file { getattr open };
-allow gmscore_app adsprpc_prop:file { getattr open };
-allow gmscore_app apexd_prop:file { getattr open };
-allow gmscore_app apk_verity_prop:file { open };
-allow gmscore_app fsg_firmware_file:filesystem { getattr };
-allow gmscore_app hal_memtrack_default:binder { call };

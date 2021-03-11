@@ -19,9 +19,6 @@ r_dir_file(perfd, sysfs_graphics)
 r_dir_file(perfd, sysfs_socinfo)
 
 allow perfd sysfs_devices_system_cpu:file w_file_perms;
-
-allow perfd perfd_socket:sock_file write;
-
 allow perfd device_latency:chr_file w_file_perms;
 
 # wahoo sysfs_msm_subsys is sysfs_devfreq + sysfs_kgsl

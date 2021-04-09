@@ -24,6 +24,7 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Adding PixelExperience stuff
 OCTAVI_DEVICE_MAINTAINER := GitDaisy
+OCTAVI_BUILD_TYPE=Official
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
